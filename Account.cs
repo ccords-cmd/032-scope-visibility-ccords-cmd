@@ -1,7 +1,7 @@
 ﻿namespace knightmoves;
 
 public class Account {
- public string Name { get; private set; }
+ public string Name = "";
  private string ChangeName(string newName) {
   Name = newName;
   return Name;
